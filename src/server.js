@@ -11,6 +11,7 @@ if (cluster.isPrimary) {
 
   console.log('Primary process')
   cluster.fork()
+  cluster.fork()
 } else {
   // Por rodar no modo filho, essa instância se comportara como um server normal.
 
