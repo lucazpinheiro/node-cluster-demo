@@ -1,4 +1,3 @@
-process.env.UV_THREADPOOL_SIZE = 1
 import cluster from 'cluster'
 import startApp from './app.js'
 
